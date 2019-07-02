@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<!--body starts here-->
+	<body>
+		<!--navbar code-->
+		<div class="container" id="main">
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse"type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="./images/logo1.png" alt="logo"></a>
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a>
+							</li>
+							<li class="dropdown"><a href="#"class="dropdown-toggle"data-toggle="dropdown">Services<strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">web design</a>
+									</li>
+									<li><a href="#">web development</a>
+									</li>
+									<li><a href="#">SEO</a>
+									</li>
+									<li class="divider"></li>
+									<li class="dropdown-header">More Services</li>
+									<li><a href="#">Contents</a>
+									</li>
+									<li><a href="#">more</a>
+									</li>
+								</ul>
+							</li>
+							
+								
+						</ul>
+					<form class="navbar-form pull-left" > 
+						<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form> 
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle= "dropdown"><span class="glyphicon glyphicon-user"></span>My Accounts<strong class="caret"></strong></a>
+						 <!--dropdown menu-->
+						 	<ul class="dropdown-menu">
+								<li><a href="#"><span class="glyphicon glyphicon-wrench"></span> settings</a>
+								</li>
+								<li><a href="#"><span class="glyphicon glyphicon-refresh"></span>  update profile</a>
+								</li>
+								<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span>  billing</a>
+								</li>
+								<li><a href="#"><span class="glyphicon glyphicon-off"></span>  web design</a>
+								</li>
+
+							</ul>
+						</li>
+					</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--navbar ends-->
+
+		<div class="carousel slide" id="myCarousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active " id="slide1">
+                      <img src="./images/cor1.jpg" class="img-ht" alt="">
+						<div class="carousel-caption">
+							<h4></h4>
+							<p></p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+							<img src="./images/corr2.jpg" class="img-ht" alt="">
+						<div class="carousel-caption">
+							<h4></h4>
+							<p></p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+							<img src="./images/corr3.jpg" class="img-ht" alt="">
+						<div class="carousel-caption">
+							<h4></h4>
+							<p></p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
+
+		<!--grid starts here-->
+		<main>
+				<div class="jumbotron">
+					<h1 class="display-4" id="jumbo">Experience IT at its best</h1>
+					<p class="lead">Choose The Perfect
+						Destination For Your IT Problems.</p>
+					<hr class="my-4">
+					<p>Discover the next technologies, frameworks, solutions and services that are powering enterprises into the future and helping businesses stay ahead.</p>
+					<p class="lead">
+						
+						<div class="container">
+								
+								<!-- Trigger the modal with a button -->
+								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Know more</button>
+							  
+								<!-- Modal -->
+								<div class="modal fade" id="myModal" role="dialog">
+								  <div class="modal-dialog">
+								  
+									<!-- Modal content-->
+									<div class="modal-content">
+									  <div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">know more about us</h4>
+									  </div>
+									  <p>IT hub is an organisation where you get all your it problems sorted.</p><div class="modal-body">
+										
+									  </div>
+									  <div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									  </div>
+									</div>
+									
+								  </div>
+								</div>
+								
+							  </div>
+					</p>
+				</div>
+			</main>
+		<div class="container">
+			<header><h2 id="service">Our services</h2></header>
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="./images/grid1.jpg" alt="not found">
+					<h4 id="cloud">cloud computing</h4>
+				</div>
+				<div class="col-sm-4">
+					<img src="./images/grid2.jpg" alt="not found">
+					<h4 id="server">server maintainance</h4>
+				</div>
+				<div class="col-sm-4">
+					<img src="./images/it.png" alt="not found">
+					<h4 id="it">it infrastructure</h4>
+
+				</div>
+				
+				
+			</div>
+		</div>
+
+		
+			
+		<!--footer starts here-->
+	<footer>
+			<div class="container">
+					<div class="row">
+					  <div class="col-sm-4 bg-dark">
+						<h4 >About us<h4>
+							<p>IT Hub provides information technology services to its customers around the world. It provides integrated solutions that include business process outsourcing, infrastructure technology, and application services. The application services offered by the company includes application development as well as app maintenance.</p>
+					  </div>
+					  <div class="col-sm-4 bg-dark">
+						<h4 id="shift"> Site Links</h4>
+							<ul>
+								<li ><a href="#" >Privacy Policy</a></li>
+								<li><a href="#">FTC Disclosure</a></li>
+								<li><a href="#">Terms of Service</a></li>
+								<li><a href="#">Free Blog</a></li>
+
+
+								</li>
+							</ul>
+					  </div>
+					  <div class="col-sm-4 bg-dark">
+							<h4 id="shift"> Follow Us On</h4>
+							<ul>
+
+							<li><a href="http://www.facebook.com"><img src="./icon/facebook-brands.svg" alt=""> facebook</a></li>
+							<li><a href="http://www.instagram.com"><img src="./icon/instagram-brands.svg" alt=""> Instagram</a></li>
+							<li><a href="http://www.google.com"><img src="./icon/google-brands.svg" alt=""> Google</a></li>
+							</ul>
+						  </div>
+
+						
+					
+							
+				
+					
+					  </div>
+					</div>
+			<p id="my-footer-copyright">
+				@2019 IT HUB | All rights reserved | it-hub.com		  
+			
+				</p>	
+	</footer>
+		<!--footer ends here-->
+
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+

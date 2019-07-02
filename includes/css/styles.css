@@ -1,0 +1,150 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+       width: 300px;
+   }
+.navbar-brand {
+    padding-top: 0px;
+    
+}
+.navbar-brand img {
+    width: auto;
+    height: 50px;
+}
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#mycarousel {
+    width: 100%;
+}
+
+#myCarousel .item{
+    margin-top: 60px;
+ 
+}
+#slide1{
+    /* background: url(../../images/cor1.jpg) top center no-repeat; */
+    height: auto;
+    width: 100% !important;
+}
+#slide2{
+    /* background: url(../../images/corr2.jpg) top center no-repeat; */
+    height: auto;
+    width: 100% !important;
+}
+#slide3{
+    /* background: url(../../images/corr3.jpg) top center no-repeat; */
+    height: auto;
+    width: 100% !important;
+}
+.img-ht{
+    width: 100vw !important;
+    height: auto;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
+
+.my-col-adjust .col-sm-3 {
+    height: 100px;
+    width: auto;
+}
+#service{
+    text-align: center;
+}
+#server{
+    text-align: center;
+}
+#it{
+    text-align: center;
+}
+
+#cloud{
+    text-align: center;
+}
+footer {
+    background-color:aqua;
+    height: 40px;
+    padding-bottom: 200px;
+}
+#jumbo{
+    text-align: center;
+}
+footer h5,p{
+ color: gray;
+}
+footer li{
+    list-style: none;
+    color: gray;
+}
+#shift li{
+    padding-left: 250px;
+    
+}
+#shift{
+    padding-left:50px; 
+}
+
+#my-footer-copyright {
+    text-align: center;
+}
+
+footer img {
+    width: auto;
+    height: 20px;
+}
+
+.carousel-inner{
+    height: auto;
+    
+    
+}
